@@ -19,6 +19,7 @@ class JenkinsApplicationTests {
 	public void contextLoads() {
         logger.info("Test case executing...");
         logger.info("Test case executing  second log statement");
+        logger.info("Pipeline are added");
         Assertions.assertEquals(true,true);
     }
 
